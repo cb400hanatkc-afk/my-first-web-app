@@ -16,6 +16,8 @@ Claude Code のスキルを、社内の Microsoft 365 Copilot で使えるよう
 | `paper-research-prompt.md` | paper-research | 学術文献・先行研究のリサーチ |
 | `production-mgmt-prompt.md` | production-mgmt-implementation | 生産管理システム導入の相談相手 |
 | `meeting-prep-prompt.md` | meeting-prep | 共同研究先との面談準備パック |
+| `coaching-insights-coach-prompt.md` | coaching-insights（コーチ視点） | 自分がコーチ役のセッション振り返り＋スキル観察 |
+| `coaching-insights-client-prompt.md` | coaching-insights（クライアント視点） | 自分が受けたセッションの振り返り（セルフコーチング） |
 | （`../board/virtual-board-prompt.md`） | virtual-board | バーチャル役員会。既存の汎用移植版をそのまま使う（二重管理しない） |
 
 ## 使い方
@@ -31,6 +33,8 @@ Claude Code のスキルを、社内の Microsoft 365 Copilot で使えるよう
   推奨: `調査サマリ/YYYY-MM-DD-テーマ名.docx` のように日付を頭に付けて統一する
 - **継続性の作り方**: Copilot は過去のチャットや保存済みファイルを自動参照しない。
   前回の続きをやるときは、前回の保存ファイルを添付するか「/」でファイル参照してから依頼する
+- **コーチングの振り返り**: セッションの文字起こしは個人の内面の記録なので、社内Copilotに入れる範囲は自分で線を引く。
+  クライアントの実名・所属は入力しなくても分析は成立する（「Aさん」で足りる）
 - **社内データの活用**: 社内Copilotでは匿名化不要。受注実績・会議録・実名入り資料をそのまま素材にできる。
   ただし**成果物をこの公開リポジトリに持ち帰る場合は、CLAUDE.md の秘匿ルールに従って匿名化してから**にすること
 
